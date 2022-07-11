@@ -1,1 +1,4 @@
 #configuracion hots b
+#hots b
+ip a add 172.16.255.20/16 dev eth0
+

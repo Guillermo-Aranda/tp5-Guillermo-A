@@ -1,1 +1,5 @@
 #configuracion router b
+# configuracion ip del rb
+ip a add 172.16.0.25/16 dev eth0
+ip a add 10.0.0.255/8  dev eth1
+
