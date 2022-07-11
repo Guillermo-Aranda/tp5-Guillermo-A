@@ -3,3 +3,6 @@
 ip a add 172.16.0.25/16 dev eth0
 ip a add 10.0.0.255/8  dev eth1
 
+#ip route rb
+ip route add 192.168.0.0/24 via 10.10.10.10
+

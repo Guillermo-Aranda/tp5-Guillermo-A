@@ -2,3 +2,6 @@
 #configuracion ip ra
 ip a add 192.168.0.1/24 dev eth0
 ip a add 10.10.10.10/8 dev eth1
+
+#ip route de ra
+ip route add 172.16.0.0/16 via 10.0.0.255
